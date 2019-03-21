@@ -38,7 +38,7 @@ describe 'form' do
 
     visit edit_article_path(@article)
 
-    fill_in 'article[title]', with: "My edit"
+    fill_in 'title', with: "My edit"
     fill_in 'article[description]', with: "My article description"
 
     click_on "Submit Article"
